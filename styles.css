@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #003D5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: #fff;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #003D5B;
+    margin-bottom: 20px;
+}
+
+/* Progress Bar */
+.progress-bar {
+    background: #eee;
+    height: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 0%;
+    background: #00798C;
+    transition: 0.3s;
+}
+
+/* Form Steps */
+.form-step {
+    display: none;
+    flex-direction: column;
+}
+
+.form-step.active {
+    display: flex;
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #00798C;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/* Next Button */
+.next-btn {
+    background: #EDAe49;
+    color: #fff;
+}
+
+.next-btn:hover {
+    background-color: #00798C;
+}
+
+/* Back Button */
+.prev-btn {
+    background: #D1495B;
+    color: #fff;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    background: #30638E;
+    color: #fff;
+}
+
+/* Hover Effects */
+button:hover {
+    opacity: 0.9;
+}
+
+input.error {
+    border-color: #D1495B;
+    background-color: #ffe5e8;
+} 
+
+/* Mobile Responsive */
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+}
