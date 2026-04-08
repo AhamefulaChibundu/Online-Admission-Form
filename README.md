@@ -63,7 +63,7 @@ Prospective students applying for admission.
 
 ##  Presentation Slides
 
-[View Presentation]()
+[View Presentation](https://docs.google.com/presentation/d/1trHh4CzbM8oSM9Zqyv1evRNRSEdzPDQP1msQt6SuO8Q/edit?usp=sharing)
 
 ---
 
